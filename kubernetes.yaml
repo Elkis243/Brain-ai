@@ -15,7 +15,7 @@ spec:
         app: django-brain
     spec:
       containers:
-        - image: elkis/brain_ai:latest
+        - image: elkis/brain_ai:v1
           name: django-brain
           ports:
             - containerPort: 8001
